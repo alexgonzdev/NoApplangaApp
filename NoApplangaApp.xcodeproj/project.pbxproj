@@ -14,6 +14,10 @@
 		A8D38CAC28C76DFF0015DCE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D38CAB28C76DFF0015DCE3 /* Assets.xcassets */; };
 		A8D38CAF28C76DFF0015DCE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D38CAD28C76DFF0015DCE3 /* LaunchScreen.storyboard */; };
 		A8D38CB228C76DFF0015DCE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D38CB128C76DFF0015DCE3 /* main.m */; };
+		A8D38CB928C76E300015DCE3 /* MorroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D38CB828C76E300015DCE3 /* MorroViewController.m */; };
+		A8D38CBB28C76E420015DCE3 /* CuevaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D38CBA28C76E420015DCE3 /* CuevaViewController.m */; };
+		A8D38CBD28C76E500015DCE3 /* FlamencoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D38CBC28C76E500015DCE3 /* FlamencoViewController.m */; };
+		A8D38CBF28C76EB20015DCE3 /* CavernasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D38CBE28C76EB20015DCE3 /* CavernasViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		A8D38CAE28C76DFF0015DCE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8D38CB028C76DFF0015DCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8D38CB128C76DFF0015DCE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8D38CB828C76E300015DCE3 /* MorroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorroViewController.m; sourceTree = "<group>"; };
+		A8D38CBA28C76E420015DCE3 /* CuevaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CuevaViewController.m; sourceTree = "<group>"; };
+		A8D38CBC28C76E500015DCE3 /* FlamencoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlamencoViewController.m; sourceTree = "<group>"; };
+		A8D38CBE28C76EB20015DCE3 /* CavernasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CavernasViewController.m; sourceTree = "<group>"; };
+		A8D38CC028C76EC40015DCE3 /* CavernasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CavernasViewController.h; sourceTree = "<group>"; };
+		A8D38CC128C76ED30015DCE3 /* MorroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorroViewController.h; sourceTree = "<group>"; };
+		A8D38CC228C76F1A0015DCE3 /* CuevaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CuevaViewController.h; sourceTree = "<group>"; };
+		A8D38CC328C76F280015DCE3 /* FlamencoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlamencoViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,14 @@
 				A8D38CAD28C76DFF0015DCE3 /* LaunchScreen.storyboard */,
 				A8D38CB028C76DFF0015DCE3 /* Info.plist */,
 				A8D38CB128C76DFF0015DCE3 /* main.m */,
+				A8D38CB828C76E300015DCE3 /* MorroViewController.m */,
+				A8D38CC228C76F1A0015DCE3 /* CuevaViewController.h */,
+				A8D38CC328C76F280015DCE3 /* FlamencoViewController.h */,
+				A8D38CBA28C76E420015DCE3 /* CuevaViewController.m */,
+				A8D38CBC28C76E500015DCE3 /* FlamencoViewController.m */,
+				A8D38CBE28C76EB20015DCE3 /* CavernasViewController.m */,
+				A8D38CC028C76EC40015DCE3 /* CavernasViewController.h */,
+				A8D38CC128C76ED30015DCE3 /* MorroViewController.h */,
 			);
 			path = NoApplangaApp;
 			sourceTree = "<group>";
@@ -146,10 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D38CBD28C76E500015DCE3 /* FlamencoViewController.m in Sources */,
 				A8D38CA728C76DFD0015DCE3 /* ViewController.m in Sources */,
+				A8D38CBB28C76E420015DCE3 /* CuevaViewController.m in Sources */,
 				A8D38CA128C76DFD0015DCE3 /* AppDelegate.m in Sources */,
 				A8D38CB228C76DFF0015DCE3 /* main.m in Sources */,
+				A8D38CBF28C76EB20015DCE3 /* CavernasViewController.m in Sources */,
 				A8D38CA428C76DFD0015DCE3 /* SceneDelegate.m in Sources */,
+				A8D38CB928C76E300015DCE3 /* MorroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
