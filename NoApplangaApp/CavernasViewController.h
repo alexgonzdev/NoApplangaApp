@@ -5,8 +5,11 @@
 //  Created by Alex Gonzalez on 9/6/22.
 //
 
-#ifndef CavernasViewController_h
-#define CavernasViewController_h
+#import <UIKit/UIKit.h>
+
+@interface CavernasViewController : UIViewController
 
 
-#endif /* CavernasViewController_h */
+@end
+
+

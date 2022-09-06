@@ -41,6 +41,9 @@
 		A8D38CC128C76ED30015DCE3 /* MorroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorroViewController.h; sourceTree = "<group>"; };
 		A8D38CC228C76F1A0015DCE3 /* CuevaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CuevaViewController.h; sourceTree = "<group>"; };
 		A8D38CC328C76F280015DCE3 /* FlamencoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlamencoViewController.h; sourceTree = "<group>"; };
+		A8D38CC428C770B90015DCE3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		A8D38CC528C770B90015DCE3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8D38CC728C770C20015DCE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,14 +87,14 @@
 				A8D38CAD28C76DFF0015DCE3 /* LaunchScreen.storyboard */,
 				A8D38CB028C76DFF0015DCE3 /* Info.plist */,
 				A8D38CB128C76DFF0015DCE3 /* main.m */,
-				A8D38CB828C76E300015DCE3 /* MorroViewController.m */,
+				A8D38CC128C76ED30015DCE3 /* MorroViewController.h */,
 				A8D38CC228C76F1A0015DCE3 /* CuevaViewController.h */,
 				A8D38CC328C76F280015DCE3 /* FlamencoViewController.h */,
+				A8D38CC028C76EC40015DCE3 /* CavernasViewController.h */,
+				A8D38CB828C76E300015DCE3 /* MorroViewController.m */,
 				A8D38CBA28C76E420015DCE3 /* CuevaViewController.m */,
 				A8D38CBC28C76E500015DCE3 /* FlamencoViewController.m */,
 				A8D38CBE28C76EB20015DCE3 /* CavernasViewController.m */,
-				A8D38CC028C76EC40015DCE3 /* CavernasViewController.h */,
-				A8D38CC128C76ED30015DCE3 /* MorroViewController.h */,
 			);
 			path = NoApplangaApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = A8D38C9328C76DFD0015DCE3;
 			productRefGroup = A8D38C9D28C76DFD0015DCE3 /* Products */;
@@ -184,6 +188,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				A8D38CA928C76DFD0015DCE3 /* Base */,
+				A8D38CC428C770B90015DCE3 /* es */,
+				A8D38CC728C770C20015DCE3 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -192,6 +198,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A8D38CAE28C76DFF0015DCE3 /* Base */,
+				A8D38CC528C770B90015DCE3 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -203,6 +210,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -261,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

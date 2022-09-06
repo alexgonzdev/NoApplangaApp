@@ -5,8 +5,10 @@
 //  Created by Alex Gonzalez on 9/6/22.
 //
 
-#ifndef MorroViewController_h
-#define MorroViewController_h
+#import <UIKit/UIKit.h>
+
+@interface MorroViewController : UIViewController
 
 
-#endif /* MorroViewController_h */
+@end
+

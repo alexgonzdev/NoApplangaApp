@@ -5,8 +5,11 @@
 //  Created by Alex Gonzalez on 9/6/22.
 //
 
-#ifndef CuevaViewController_h
-#define CuevaViewController_h
+#import <UIKit/UIKit.h>
+
+@interface CuevaViewController : UIViewController
 
 
-#endif /* CuevaViewController_h */
+@end
+
+
