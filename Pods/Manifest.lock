@@ -1,0 +1,16 @@
+PODS:
+  - Applanga (2.0.160)
+
+DEPENDENCIES:
+  - Applanga
+
+SPEC REPOS:
+  trunk:
+    - Applanga
+
+SPEC CHECKSUMS:
+  Applanga: 1a3fbaba46941892b085828cafb471e9730da87e
+
+PODFILE CHECKSUM: e8186ebe086ab0a8bcad5bb80e938b07bc9ffde0
+
+COCOAPODS: 1.11.2

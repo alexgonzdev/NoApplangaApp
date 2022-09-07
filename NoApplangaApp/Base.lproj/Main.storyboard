@@ -16,75 +16,80 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most Beautiful Places In Puerto Rico" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="OCP-Nh-8C0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Most Beautiful Places In Puerto Rico" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="OCP-Nh-8C0">
                                 <rect key="frame" x="20" y="111" width="374" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="AiA-bE-fOe"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBg-xg-b6n">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBg-xg-b6n">
                                 <rect key="frame" x="20" y="210" width="183" height="161"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="161" id="ejB-zr-Jq4"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" backgroundImage="cueva"/>
                                 <connections>
                                     <segue destination="b0n-Yk-yfk" kind="show" id="S2D-bP-LBa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AoQ-VU-7Hz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AoQ-VU-7Hz">
                                 <rect key="frame" x="211" y="210" width="183" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" backgroundImage="flamenco"/>
                                 <connections>
                                     <segue destination="kgt-P7-yQl" kind="show" id="YlH-O1-uMo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4y-8X-MCN">
-                                <rect key="frame" x="20" y="379" width="183" height="161"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4y-8X-MCN">
+                                <rect key="frame" x="20" y="447" width="183" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" backgroundImage="morro"/>
                                 <connections>
                                     <segue destination="v9o-Ti-dc7" kind="show" id="7yx-Hx-hEy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoJ-Oa-PhN">
-                                <rect key="frame" x="211" y="379" width="183" height="161"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="183" id="8wK-BD-UYk"/>
-                                    <constraint firstAttribute="height" constant="161" id="TtA-MW-bGA"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoJ-Oa-PhN">
+                                <rect key="frame" x="211" y="447" width="183" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" backgroundImage="cavernas"/>
                                 <connections>
                                     <segue destination="tsf-5v-83m" kind="show" id="zlO-eF-UiH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flamenco Beach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkq-uv-uqW">
+                                <rect key="frame" x="225" y="163" width="169" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="El Morro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5H-4b-ZbW">
+                                <rect key="frame" x="20" y="397" width="169" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cueva Del Indio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wul-M4-b8K">
+                                <rect key="frame" x="34" y="163" width="169" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cavernas de Camuy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTl-kt-6Ao">
+                                <rect key="frame" x="218" y="397" width="169" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="QBg-xg-b6n" firstAttribute="leading" secondItem="e4y-8X-MCN" secondAttribute="leading" id="2Vm-2Y-RFt"/>
-                            <constraint firstItem="QBg-xg-b6n" firstAttribute="top" secondItem="AoQ-VU-7Hz" secondAttribute="top" id="90a-bz-II0"/>
-                            <constraint firstItem="hoJ-Oa-PhN" firstAttribute="top" secondItem="AoQ-VU-7Hz" secondAttribute="bottom" constant="8" symbolic="YES" id="A7S-rF-kyb"/>
-                            <constraint firstItem="e4y-8X-MCN" firstAttribute="top" secondItem="QBg-xg-b6n" secondAttribute="bottom" constant="8" symbolic="YES" id="DqR-l6-8Ta"/>
-                            <constraint firstItem="QBg-xg-b6n" firstAttribute="leading" secondItem="OCP-Nh-8C0" secondAttribute="leading" id="EPb-z0-3rR"/>
-                            <constraint firstItem="AoQ-VU-7Hz" firstAttribute="leading" secondItem="QBg-xg-b6n" secondAttribute="trailing" constant="8" symbolic="YES" id="IoT-35-cxO"/>
-                            <constraint firstItem="hoJ-Oa-PhN" firstAttribute="bottom" secondItem="e4y-8X-MCN" secondAttribute="bottom" id="Lye-hC-YzN"/>
-                            <constraint firstItem="QBg-xg-b6n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="QTt-X2-lcG"/>
-                            <constraint firstItem="hoJ-Oa-PhN" firstAttribute="trailing" secondItem="AoQ-VU-7Hz" secondAttribute="trailing" id="U7g-t8-ZCx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hoJ-Oa-PhN" secondAttribute="bottom" constant="322" id="Yft-F3-h4i"/>
-                            <constraint firstItem="hoJ-Oa-PhN" firstAttribute="top" secondItem="e4y-8X-MCN" secondAttribute="top" id="cEJ-XJ-IOZ"/>
-                            <constraint firstItem="hoJ-Oa-PhN" firstAttribute="leading" secondItem="e4y-8X-MCN" secondAttribute="trailing" constant="8" symbolic="YES" id="gep-BN-geB"/>
-                            <constraint firstItem="hoJ-Oa-PhN" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="mRJ-80-frq"/>
-                            <constraint firstItem="hoJ-Oa-PhN" firstAttribute="leading" secondItem="AoQ-VU-7Hz" secondAttribute="leading" id="oIu-Ax-rSa"/>
-                            <constraint firstItem="hoJ-Oa-PhN" firstAttribute="trailing" secondItem="OCP-Nh-8C0" secondAttribute="trailing" id="ooy-uG-68V"/>
-                            <constraint firstItem="QBg-xg-b6n" firstAttribute="top" secondItem="OCP-Nh-8C0" secondAttribute="bottom" constant="45" id="qbU-ao-lol"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="tyT-UZ-rOY"/>
                     <connections>

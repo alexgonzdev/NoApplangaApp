@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0CB64038FCC26B88C5B92EBA32EEB1FA /* Applanga */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4012BE4CAC5A9E3A6ED1C74EE38FB339 /* Build configuration list for PBXAggregateTarget "Applanga" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Applanga;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		41BB11280207F3DF4EDD216D60502407 /* Pods-NoApplangaApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D92BB3A2C0C884DD04237F3321466B /* Pods-NoApplangaApp-dummy.m */; };
+		47A632BDCD8929ACFEF2D999341BB5A7 /* Pods-NoApplangaApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 444B35EC94F3CB94232EB749C3B016F8 /* Pods-NoApplangaApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE95F293A1298B5C73251D6E27EF5BD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96BA07686A35F7BEE22B475B59C26F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CB64038FCC26B88C5B92EBA32EEB1FA;
+			remoteInfo = Applanga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FC28FEEA01B761440CB4018D1B0465F /* Applanga.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Applanga.h; path = Applanga.framework/Headers/Applanga.h; sourceTree = "<group>"; };
+		26327657BA6AAE95CB1E2B4F20A6CB04 /* Applanga.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Applanga.framework; sourceTree = "<group>"; };
+		2C60A6C98B8D0866D0A836C6662F7FDE /* Pods-NoApplangaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoApplangaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		444B35EC94F3CB94232EB749C3B016F8 /* Pods-NoApplangaApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NoApplangaApp-umbrella.h"; sourceTree = "<group>"; };
+		54678726FB38C4B8644BACA79CE607C7 /* Pods-NoApplangaApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoApplangaApp-frameworks.sh"; sourceTree = "<group>"; };
+		54D92BB3A2C0C884DD04237F3321466B /* Pods-NoApplangaApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoApplangaApp-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		91B03556A112F144A2E98D49420BCDCF /* Pods-NoApplangaApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoApplangaApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		960FDE7A0A454D0C7F9FFCC4CC468A65 /* Pods-NoApplangaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoApplangaApp.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8415EA3F818DD46E4C3782DF2045A5A /* Pods-NoApplangaApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoApplangaApp-Info.plist"; sourceTree = "<group>"; };
+		B6E96D9819777CC0E81372A2B64169E4 /* Applanga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Applanga.release.xcconfig; sourceTree = "<group>"; };
+		BDDBE8F6CEA057F506C9E9F7755D73A1 /* Pods-NoApplangaApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NoApplangaApp.modulemap"; sourceTree = "<group>"; };
+		BE34A5235B334D94FDEA281470D3E5FA /* Applanga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Applanga.debug.xcconfig; sourceTree = "<group>"; };
+		CF5CB353EFF88C8DF4DD9AF7BFB50DE8 /* Pods-NoApplangaApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoApplangaApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD73CCE22EBA3539766266802562414D /* Pods-NoApplangaApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NoApplangaApp"; path = Pods_NoApplangaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E99CAE020480242434297F480A2D6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE95F293A1298B5C73251D6E27EF5BD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0376D091E94662D199D5C6E49902670B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE34A5235B334D94FDEA281470D3E5FA /* Applanga.debug.xcconfig */,
+				B6E96D9819777CC0E81372A2B64169E4 /* Applanga.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Applanga";
+			sourceTree = "<group>";
+		};
+		4EDD92B64B92CAE6A1339CC74771BB00 /* Pods-NoApplangaApp */ = {
+			isa = PBXGroup;
+			children = (
+				BDDBE8F6CEA057F506C9E9F7755D73A1 /* Pods-NoApplangaApp.modulemap */,
+				91B03556A112F144A2E98D49420BCDCF /* Pods-NoApplangaApp-acknowledgements.markdown */,
+				CF5CB353EFF88C8DF4DD9AF7BFB50DE8 /* Pods-NoApplangaApp-acknowledgements.plist */,
+				54D92BB3A2C0C884DD04237F3321466B /* Pods-NoApplangaApp-dummy.m */,
+				54678726FB38C4B8644BACA79CE607C7 /* Pods-NoApplangaApp-frameworks.sh */,
+				A8415EA3F818DD46E4C3782DF2045A5A /* Pods-NoApplangaApp-Info.plist */,
+				444B35EC94F3CB94232EB749C3B016F8 /* Pods-NoApplangaApp-umbrella.h */,
+				2C60A6C98B8D0866D0A836C6662F7FDE /* Pods-NoApplangaApp.debug.xcconfig */,
+				960FDE7A0A454D0C7F9FFCC4CC468A65 /* Pods-NoApplangaApp.release.xcconfig */,
+			);
+			name = "Pods-NoApplangaApp";
+			path = "Target Support Files/Pods-NoApplangaApp";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A048A53B7BFFA39B4A4B46A2BEB6E962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6B2A0920E43027995DAD821DC0075C4 /* Applanga */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7DB422DFF1090CBABC82D75F01EA553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD73CCE22EBA3539766266802562414D /* Pods-NoApplangaApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B532CFD7E929EE27DF40AACD3BBA8F6E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EDD92B64B92CAE6A1339CC74771BB00 /* Pods-NoApplangaApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6B2A0920E43027995DAD821DC0075C4 /* Applanga */ = {
+			isa = PBXGroup;
+			children = (
+				0FC28FEEA01B761440CB4018D1B0465F /* Applanga.h */,
+				FCFBA2EA94D8625B4A9DF51FE5A18465 /* Frameworks */,
+				0376D091E94662D199D5C6E49902670B /* Support Files */,
+			);
+			name = Applanga;
+			path = Applanga;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A048A53B7BFFA39B4A4B46A2BEB6E962 /* Pods */,
+				A7DB422DFF1090CBABC82D75F01EA553 /* Products */,
+				B532CFD7E929EE27DF40AACD3BBA8F6E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCFBA2EA94D8625B4A9DF51FE5A18465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26327657BA6AAE95CB1E2B4F20A6CB04 /* Applanga.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EEA457864D15B80FA0089734ACCA4DA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A632BDCD8929ACFEF2D999341BB5A7 /* Pods-NoApplangaApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D6BF70B1717FB0D3AC0751877FF104F1 /* Pods-NoApplangaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEE9829746754D5BB07942C1897A22F /* Build configuration list for PBXNativeTarget "Pods-NoApplangaApp" */;
+			buildPhases = (
+				EEA457864D15B80FA0089734ACCA4DA2 /* Headers */,
+				2638EB228F1355987CEBDF50489A7601 /* Sources */,
+				4E99CAE020480242434297F480A2D6FE /* Frameworks */,
+				9E989ACD36BCDF3CEA296F0A6705B362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				688E67A5EDF83886D0C89A0DCF2124E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-NoApplangaApp";
+			productName = Pods_NoApplangaApp;
+			productReference = DD73CCE22EBA3539766266802562414D /* Pods-NoApplangaApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A7DB422DFF1090CBABC82D75F01EA553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CB64038FCC26B88C5B92EBA32EEB1FA /* Applanga */,
+				D6BF70B1717FB0D3AC0751877FF104F1 /* Pods-NoApplangaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E989ACD36BCDF3CEA296F0A6705B362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2638EB228F1355987CEBDF50489A7601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BB11280207F3DF4EDD216D60502407 /* Pods-NoApplangaApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		688E67A5EDF83886D0C89A0DCF2124E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Applanga;
+			target = 0CB64038FCC26B88C5B92EBA32EEB1FA /* Applanga */;
+			targetProxy = 96BA07686A35F7BEE22B475B59C26F3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		70E4963AF4EE1F91E02641DFE133DC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C60A6C98B8D0866D0A836C6662F7FDE /* Pods-NoApplangaApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NoApplangaApp/Pods-NoApplangaApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoApplangaApp/Pods-NoApplangaApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		824FA2CC38C51FE0DF5098ADE13FD1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E96D9819777CC0E81372A2B64169E4 /* Applanga.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF97685649DA936B3283821F21D568B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960FDE7A0A454D0C7F9FFCC4CC468A65 /* Pods-NoApplangaApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NoApplangaApp/Pods-NoApplangaApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoApplangaApp/Pods-NoApplangaApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E5A09C623F2C514D87F67FAEADDAE5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE34A5235B334D94FDEA281470D3E5FA /* Applanga.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEE9829746754D5BB07942C1897A22F /* Build configuration list for PBXNativeTarget "Pods-NoApplangaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E4963AF4EE1F91E02641DFE133DC4C /* Debug */,
+				AF97685649DA936B3283821F21D568B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4012BE4CAC5A9E3A6ED1C74EE38FB339 /* Build configuration list for PBXAggregateTarget "Applanga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A09C623F2C514D87F67FAEADDAE5A2 /* Debug */,
+				824FA2CC38C51FE0DF5098ADE13FD1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
